@@ -49,6 +49,6 @@ docker logs -f icecast-analytics
 
 ### Screenshot Example:
 
-![GA Example](https://raw.githubusercontent.com/ned-kelly/docker-icecast-google-analytics/master/screenshots/ga "GA Example")
+![GA Example](https://raw.githubusercontent.com/ned-kelly/docker-icecast-google-analytics/master/screenshots/ga.png "GA Example")
 
 _Fig 1: GA Realtime Dashboard Example._
