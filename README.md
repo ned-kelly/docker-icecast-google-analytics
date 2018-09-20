@@ -6,6 +6,10 @@ This is a Docker build of the Icecast Google Analytics java app by "[iroks](http
 
 ---------------------------
 
+![Docker Build Status](https://img.shields.io/docker/build/bushrangers/docker-icecast-google-analytics.png) ![Docker Pulls](https://img.shields.io/docker/pulls/bushrangers/docker-icecast-google-analytics.png)
+
+**Docker Hub:** [`bushrangers/docker-icecast-google-analytics`](https://hub.docker.com/r/bushrangers/docker-icecast-google-analytics/)
+
 ## Overview:
 
 The project consists of the main Java app, bundled in "Alpine Linux" to ensure that minimal resources are consumed on your host system.

@@ -2,7 +2,11 @@ version: '3'
 
 services:
   icecast-analytics:
-    build: .
+
+    # Uncomment to build local copy rather than pulling from docker hub.
+    # build: .
+
+    image: bushrangers/docker-icecast-google-analytics
 
     container_name: icecast-analytics
     restart: always
