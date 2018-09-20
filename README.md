@@ -39,10 +39,16 @@ docker-compose up -d
 
 ```
 
-## Debugging
+## Debugging:
 
 If you're having issues, it's worth checking the logs before doing anything - Just tail the docker container's logs like so:
 
 ```
 docker logs -f icecast-analytics
 ```
+
+### Screenshot Example:
+
+![GA Example](https://raw.githubusercontent.com/ned-kelly/docker-icecast-google-analytics/master/screenshots/ga "GA Example")
+
+_Fig 1: GA Realtime Dashboard Example._
