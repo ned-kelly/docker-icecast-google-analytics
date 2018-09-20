@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  icecast-analytics:
+    build: .
+
+    container_name: icecast-analytics
+    restart: always
+    privileged:  true
+    network_mode: host
+
+    volumes:
+        - ./config/config.xml:/config/config.xml
